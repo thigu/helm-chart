@@ -3,7 +3,7 @@ entries:
   guestbook:
   - apiVersion: v2
     appVersion: v4
-    created: "2021-11-13T19:52:08.610183-03:00"
+    created: "2021-11-14T21:22:38.265732-03:00"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -13,6 +13,6 @@ entries:
     name: guestbook
     type: application
     urls:
-    - https://github.com/thigu/job-test/raw/main/my-cluster/k8s-config/charts/guestbook-0.1.0.tgz 
+    - https://raw.githubusercontent.com/thigu/helm-chart/main/guestbook-0.1.0.tgz
     version: 0.1.0
-generated: "2021-11-13T19:52:08.595086-03:00"
+generated: "2021-11-14T21:22:38.205556-03:00"
